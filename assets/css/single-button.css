@@ -1,0 +1,9 @@
+#lw-wp-wc-btn.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+#lw-wp-wc-btn{
+    background: #25D366;
+    color: white;
+}

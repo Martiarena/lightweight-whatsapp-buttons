@@ -1,0 +1,51 @@
+.lw-wp-floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    transition: transform .3s;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.lw-wp-floating-btn:hover {
+    transform: scale(1.1);
+    background: #20b358;
+
+}
+.pulse-anim {
+    animation-name: elementor-animation-pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.pulse-anim:hover {
+    animation-name: none
+}
+
+@keyframes elementor-animation-pulse {
+    25% {
+        transform: scale(1.1)
+    }
+
+    75% {
+        transform: scale(.9)
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+    }
+}
